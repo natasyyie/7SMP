@@ -11,6 +11,7 @@
       display: flex;
       flex-direction: column;
       min-height: 100vh;
+      background-color: #f9f9f9;
     }
     header {
       background-color: #4CAF50;
@@ -21,8 +22,11 @@
     main {
       flex: 1;
       padding: 2em;
-      text-align: center;
-      font-size: 1.5em;
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
     footer {
       background-color: #f1f1f1;
@@ -30,6 +34,12 @@
       padding: 1em;
       font-size: 0.9em;
       color: #555;
+    }
+    h2 {
+      color: #333;
+    }
+    ul {
+      padding-left: 20px;
     }
   </style>
 </head>
@@ -40,7 +50,17 @@
   </header>
 
   <main>
-    <p>Sudut</p>
+    <h2>Materi: Sudut</h2>
+    <p>Sudut adalah bangun geometri yang terbentuk dari dua garis atau sinar garis yang bertemu di satu titik, disebut titik sudut.</p>
+    <h3>Jenis-Jenis Sudut:</h3>
+    <ul>
+      <li><strong>Sudut Lancip:</strong> kurang dari 90°</li>
+      <li><strong>Sudut Siku-siku:</strong> tepat 90°</li>
+      <li><strong>Sudut Tumpul:</strong> lebih dari 90° dan kurang dari 180°</li>
+      <li><strong>Sudut Lurus:</strong> tepat 180°</li>
+      <li><strong>Sudut Refleks:</strong> lebih dari 180°</li>
+    </ul>
+    <p>Contoh penerapan sudut dalam kehidupan sehari-hari dapat ditemukan pada jam dinding, papan segitiga, rambu lalu lintas, dan sebagainya.</p>
   </main>
 
   <footer>
@@ -49,3 +69,4 @@
 
 </body>
 </html>
+
